@@ -3,8 +3,8 @@
 #* @apiDescription dfsdfdsf
 
 #* Escreve uma mensagem
-#* @param msg A mensagem para escrever
-#* @param titulo o titulo
+#* @param msg Digite uma mensagem
+#* @param titulo o titulo da mensagem acima
 #* @get /echo
 function(msg = "", titulo = "") {
   paste0("Oi Athos!!!: '", msg, "'")
